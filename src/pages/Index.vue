@@ -1,8 +1,8 @@
 <template>
   <Layout :sidebar="false">
     <div class="content">
-      <h1>Datica Compliance Policies</h1>
-      <p class="lead">This is the public version of Datica's HIPAA Compliance Policies. For pull requests, or to download the source, please visit the github project for this site. If you have any further questions, please reach out to us at hello@datica.com.</p>
+      <h1>Tidepool Compliance Policies</h1>
+      <p class="lead">This is the public version of Tidepool's HIPAA Compliance Policies. For pull requests, or to download the source, please visit the github project for this site. If you have any further questions, please reach out to us at security@tidepoo.org.</p>
       <nav>
         <!-- To use other icons here, you need to import them in the Shortcut component -->
         <Shortcut link="/purpose" text="Purpose and Scope" icon="align-center-icon" />
@@ -10,7 +10,7 @@
         <Shortcut link="/policies" text="Policies" icon="check-square-icon" />
       </nav>
       <GitLink class="git" size="large" />
-      <span class="sitelink">Visit <a href="https://datica.com/" title="Datica Main Site">Datica</a> main site</span>
+      <span class="sitelink">Visit <a href="https://tidepool.org/" title="Tidepool Main Site">Tidepool</a> main site</span>
     </div>
   </Layout>
 </template>
@@ -25,9 +25,9 @@ export default {
     Shortcut
   },
   metaInfo: {
-    title: 'Datica Compliance Policies',
+    title: 'Tidepool Compliance Policies',
     meta: [
-      { key: 'description', name: 'description', content: 'Datica open-source compliance policies.' }
+      { key: 'description', name: 'description', content: 'Tidepool open-source compliance policies.' }
     ]
   }
 }

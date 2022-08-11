@@ -1,5 +1,6 @@
 <template>
-  <a href="https://github.com/daticahealth/datica-policies-jamdocs" :class="size" title="Git-repository" aria-label="Datica Policies on Github">
+  <a href="https://github.com/tidepool-org/datica-policies-jamdocs" :class="size" title="Git-repository"
+    aria-label="Tidepool Policies on Github">
     <github-icon class="icon" />
     {{text}}
   </a>

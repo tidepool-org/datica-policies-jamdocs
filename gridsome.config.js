@@ -16,8 +16,8 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
-  siteName: 'Datica Open-Source Compliance Policies',
-  siteUrl: 'https://policy.datica.com',
+  siteName: 'Tidepool Open-Source Compliance Policies',
+  siteUrl: 'https://policy.tidepool.org',
   templates: {
     Doc: '/:slug',
   },
